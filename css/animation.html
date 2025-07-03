@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation</title>
+  <style>
+    .box{
+      background-color: gold;
+      height: 100px;
+      width: 300px;
+      animation: color 3s ease-in 1s 1 normal;
+    }
+
+  @keyframes color {
+    0% {
+      background-color: khaki;
+    }
+    25% {
+      background-color: red;
+    }
+    50%{
+      background-color: purple;
+    }
+    100%{
+      background-color: black;
+    }
+  }
+  
+
+  </style>
+
+</head>
+<body>
+  <h1>animations in css</h1>
+  <div class="box">this will animate</div>
+</body>
+</html>

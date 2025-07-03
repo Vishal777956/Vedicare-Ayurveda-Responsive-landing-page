@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 6</title>
+
+  <style>
+  
+
+
+   .container div {
+    background-color: rgba(241, 142, 175, 0.763);
+
+   }
+   .container{
+    margin: 30px;
+    height: 500px;
+    display: grid;
+  grid-template-columns:repeat(12,1fr);grid-template-rows:repeat(12,1fr);
+    grid-gap: 10px;
+  
+  }
+  .item1 {
+    grid-column: 1 / span 12;
+  }
+  .item2 {
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 10;
+    
+  }
+  .item3 {
+    grid-column: 4 / span 6;
+    grid-row: 2;
+  }
+  .item4 {
+    grid-column: 10 / span 3 ;
+    grid-row: 2 / span 10;
+
+  }
+  .item5 {
+    grid-column: 4/ span 6;
+    grid-row: 3 / span 9;
+  }
+  .item6 {
+    grid-column: 1/ span 12;
+  }
+
+  @media (max-width:720px) {
+
+    .item1 {
+    grid-column: 1 / span 12;
+    }
+    .item2{
+      grid-column: 1 span 3;
+      grid-row: 3 / span 10;
+    }
+    .item3 {
+    grid-column: 1 / span 12;
+    grid-row: 2 ;
+    }
+    .item4 {
+      grid-column: 1 / span 3;
+      grid-row: 13;
+    }
+    .item5{
+      grid-column: 9 span / 13;
+      grid-row: 3 / span 10;
+    }
+
+    .item6 {
+      grid-column: 4 / span 9;
+      grid-row: 13;
+    }
+
+
+    }
+    
+  .loader {
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    border: 15px solid rgba(0, 0, 0, 0.089);
+    border-top: 15px solid #0143ea;
+    animation: loader 3s linear 2 1s ;
+
+  }
+  @keyframes loader {
+    
+   0% {
+    transform: rotate(0deg);
+   }
+    
+    100%{
+    transform: rotate(360deg);
+     
+    }
+  }
+
+
+  </style>
+
+</head>
+<body>
+ 
+  <div class="container">
+    <div class="item1">header</div>
+    <div class="item2">sidebar</div>
+    <div class="item3">nav</div>
+    <div class="item4">ads</div>
+    <div class="item5">main</div>
+    <div class="item6">footer</div>
+  </div>
+<hr>
+<h1>Loader</h1>
+<div class="loader"></div>
+  
+
+</body>
+</html>

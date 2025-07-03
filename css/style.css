@@ -1,0 +1,146 @@
+
+
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+/* h1{
+  color: red;
+  background-color: aqua;
+}
+h2{
+  color: rebeccapurple;
+  background-color: aqua;
+} */
+
+/* prac q1 */
+
+/* h1{
+  color: orange;
+
+}
+button{
+  background-color: blue;
+  color: white;
+}
+p{
+  background-color: black;
+  color: white;
+} */
+
+ /* color systems */
+
+ /* h1{
+    color:red; named color
+  /* color: rgb(124, 2, 134); - pink  rgb */
+   /* color: #ffafef; light pink */
+  /* background-color: #fff000; - yellow hexadecimal */
+
+  /* text and fonts and units */
+ /* h1{
+  text-align: start;
+  font-weight: bold;
+  text-decoration: wavy red  underline;
+  letter-spacing: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+ }
+ h2{
+  text-decoration:red overline ;
+ }
+ p{
+  font-weight: 700;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ } */
+
+ /* prac Q2 */
+/*  
+ h1 {
+  font-family: league spartan;
+  color: #ffa511;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  text-decoration:double underline teal;
+  text-transform:uppercase;
+ } */
+
+ /* transitions in css */
+
+ /* div {
+  background-color: gold;
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  transition: width ease-in-out 1.5s 1s;
+ }
+ div:hover{
+ 
+  width: 700px;
+ } */
+
+ 
+
+
+ /* transfrom properties */
+ /* #one {
+  transform: rotate(45deg);
+ }
+ #two {
+  transform: scale(0.5);
+ }
+ #three {
+  transform: translate(100px,100px);
+ }
+ #four {
+  transform: skew(30deg);
+ }
+
+ #five {
+  transform: rotate(45deg) translate(90px);
+ } */
+ 
+.smiley{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: rgb(241, 161, 31);
+}
+
+.left {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 20px;
+  position: relative;
+      top: 50px;
+    left: 30px;
+  
+}
+.right {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 20px;
+  position: relative;
+      top: 10px;
+    left: 105px; 
+}
+
+.mouth {
+  background-color: rgb(192, 50, 50);
+  height: 30px;
+  width: 100px;
+  position: relative;
+  top: 45px;
+  left: 48px;
+  border: 2px solid rgb(192, 50, 50);
+  border-radius:0px 0px 20px 20px ;
+  
+}

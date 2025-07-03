@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms in Html</title>
+</head>
+
+<body>
+
+  <form action="/action">
+    <!-- normal input types -->
+    <label for="username">Username</label>
+    <input type="text" id="username" placeholder="First Name" name="username"><br>
+
+    <label for="password">password</label>
+    <input type="password" name="password" placeholder="password" id="password"><br>
+ 
+
+
+
+<!-- checkbox -->
+  <label for="age">I am 18+</label>
+  <input type="checkbox" name="age" id="age" >
+<br>
+<!-- radio buttons -->
+  <label for="male">male</label>
+  <input type="radio" name="gender" id="male" value="male">
+  <label for="female">female</label>
+  <input type="radio" name="gender" id="female" value="female">
+  <label for="others">others</label>
+  <input type="radio" name="gender" id="others" value="others">
+  <br>
+
+<!-- dropdown list -->
+ <label for="City">Select Your City:</label>
+  <select name="city" id="city">
+    <option value="mumbai">Mumbai</option>
+    <option value="bangalore">bangalore</option>
+    <option value="delhi">delhi</option>
+    <option value="pune">pune</option>
+  </select>
+<br>
+<!-- range input -->
+
+<label for="vol">Select your volume level</label>
+ <input type="range" name="vol" id="vol" min="0" max="100">
+<br>
+
+<label for="feedback">Provide Your Feedback</label>
+  <textarea name="feedback" id="feedback" placeholder="Write here"></textarea>
+  <br>
+
+
+   <button>submit</button>
+   <button type="reset">Reset</button>
+  </form>
+
+</body>
+
+</html>
